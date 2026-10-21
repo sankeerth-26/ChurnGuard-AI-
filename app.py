@@ -767,6 +767,23 @@ div[data-testid="stButton"] > button[kind="secondary"]:hover {
     border-radius: 6px;
     padding: 2px 8px;
 }
+
+/* Restore Streamlit Material icon rendering */
+[data-testid="stIconMaterial"] {
+    font-family: "Material Symbols Rounded", "Material Symbols Outlined",
+                 "Material Icons" !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 24px !important;
+    line-height: 1 !important;
+    letter-spacing: normal !important;
+    text-transform: none !important;
+    white-space: nowrap !important;
+    direction: ltr !important;
+    font-feature-settings: "liga" !important;
+    -webkit-font-feature-settings: "liga" !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
